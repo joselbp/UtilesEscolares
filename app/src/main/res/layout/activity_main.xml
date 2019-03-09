@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josbo.utilesescolares.MainActivity">
+
+    <TextView
+        android:id="@+id/txtBienvenidos"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="11dp"
+        android:text="@string/txtBienvenidos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        android:layout_x="0dp"
+        android:layout_y="42dp"
+        app:srcCompat="@drawable/utiles"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/btnAcerca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="219dp"
+        android:layout_y="383dp"
+        android:onClick="acercade"
+        android:text="@string/btnAcerca"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <Button
+        android:id="@+id/btnEmpezar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="382dp"
+        android:onClick="empezar"
+        android:text="@string/btnEmpezar"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+</AbsoluteLayout>

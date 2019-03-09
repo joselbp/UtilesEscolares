@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UtilesEscolares</string>
+    <string name="btnAcerca"> ACERCA DE</string>
+<string name="txtSem"> IX SEMESTRE</string>
+<string name="txtunimar"> Universidad Mariana</string>
+<string name="btn"> SALIR</string>
+    <string name="button2"> SALIR</string>
+    <string name="btnEmpezar"> Empezar</string>
+<string name="txtIng"> Ingenieria de Sistemas</string>
+<string name="txtBienvenidos"> Bienvenido a Utiles Escolares</string>
+    <string name="txtLapiz"> El lápiz</string>
+    <string name="txtBoligrafo"> El boligrafo</string>
+    <string name="txtPluma"> La pluma</string>
+    <string name="txtRegla"> La regla</string>
+    <string name="txtLibro"> El libro</string>
+    <string name="txtCuaderno"> El cuaderno</string>
+    <string name="txtDiccionario"> El diccionario</string>
+    <string name="txtMochila"> La mochila</string>
+    <string name="txtRotulador"> El rotulador</string>
+    <string name="txtEstuche"> El estuche</string>
+    <string name="txtPagina"> La página</string>
+    <string name="txtSacapuntas"> El sacapuntas</string>
+    <string name="txtGoma"> La goma</string>
+    <string name="txtPegante"> El pegamento</string>
+    <string name="txtTijeras"> Las tijeras</string>
+    <string name="btnComprobar"> Comprobar</string>
+</resources>

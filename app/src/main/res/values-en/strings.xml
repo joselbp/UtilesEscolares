@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnAcerca"> About</string>
+    <string name="txtSem"> IX SEMESTER</string>
+    <string name="txtunimar"> Mariana University</string>
+    <string name="btn"> EXIT</string>
+    <string name="button2"> EXIT</string>
+    <string name="txtIng"> SYSTEMS ENGINEER</string>
+    <string name="app_name">School Supplies</string>
+    <string name="txtBienvenidos">Welcome to School Supplies</string>
+    <string name="btnComprobar">Check</string>
+    <string name="btnEmpezar"> Start</string>
+
+</resources>

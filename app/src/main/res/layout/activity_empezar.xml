@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josbo.utilesescolares.Empezar">
+
+    <Button
+        android:id="@+id/btnComprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="417dp"
+        android:onClick="comprobar"
+        android:text="@string/btnComprobar"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <EditText
+        android:id="@+id/etRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="337dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <ImageView
+        android:id="@+id/imgAleatorio"
+        android:layout_width="234dp"
+        android:layout_height="220dp"
+        android:layout_x="83dp"
+        android:layout_y="93dp"
+        app:srcCompat="@drawable/boligrafo"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="41dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="417dp"
+        android:onClick="salir"
+        android:text="@string/button2"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="370dp" />
+</AbsoluteLayout>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josbo.utilesescolares.Ganaste">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="26dp"
+        android:src="@drawable/gig"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="388dp"
+        android:onClick="salir"
+        android:text="Salir"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="339dp" />
+</AbsoluteLayout>
